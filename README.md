@@ -1,116 +1,70 @@
-# Motel Management System
+# Getting Started with Create React App
 
-A simple motel management system with an admin panel to manage room occupancy, services, and checkout, built with React, Express, MongoDB, and Material-UI.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- Check-in clients to rooms
-- Add services to rooms
-- Check out clients from rooms
-- Alert when room occupancy exceeds 4 hours
-- Real-time updates using Socket.IO
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- React
-- Material-UI
-- Express
-- MongoDB
-- Socket.IO
-- Axios
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. **Clone the repository:**
+### `npm test`
 
-   ```bash
-   git clone https://github.com/yourusername/motel-management.git
-   cd motel-management
-   ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. **Install server dependencies:**
+### `npm run build`
 
-   ```bash
-   npm install
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **Install client dependencies:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   ```bash
-   cd client
-   npm install
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. **Set up MongoDB:**
+### `npm run eject`
 
-   Make sure MongoDB is installed and running on your machine. Initialize the database with room data:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash
-   node initRooms.js
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Running the Application
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. **Start the server:**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   ```bash
-   node server.js
-   ```
+## Learn More
 
-2. **Start the client:**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-   Open another terminal and navigate to the `client` directory:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-   ```bash
-   cd client
-   npm start
-   ```
+### Code Splitting
 
-## Project Structure
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```plaintext
-motel-management/
-├── client/               # React client application
-│   ├── public/
-│   └── src/
-│       ├── App.js
-│       ├── App.css
-│       └── index.js
-├── initRooms.js          # Script to initialize MongoDB with room data
-├── server.js             # Express server
-├── package.json          # Project dependencies and scripts
-└── README.md             # Project documentation
-```
+### Analyzing the Bundle Size
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. **Check-in a client:**
+### Making a Progressive Web App
 
-   - Enter the client's name and click the "Check In" button.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-2. **Add a service:**
+### Advanced Configuration
 
-   - Enter the service details and click the "Add Service" button.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-3. **Check out a client:**
+### Deployment
 
-   - Click the "Check Out" button.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-4. **Real-time updates:**
+### `npm run build` fails to minify
 
-   - The admin panel updates in real-time when room statuses change.
-   - An alert is shown when a room's occupancy exceeds 4 hours.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [React](https://reactjs.org/)
-- [Material-UI](https://mui.com/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Socket.IO](https://socket.io/)
-
-Make sure to replace `https://github.com/yourusername/motel-management.git` with the actual URL of your repository if you plan to publish it on GitHub or another platform. This README provides an overview of the project, setup instructions, usage guidelines, and acknowledgments.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
