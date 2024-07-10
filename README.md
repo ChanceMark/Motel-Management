@@ -113,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MongoDB](https://www.mongodb.com/)
 - [Socket.IO](https://socket.io/)
 
-Make sure to replace `https://github.com/yourusername/motel-management.git` with the actual URL of your repository if you plan to publish it on GitHub or another platform. This README provides an overview of the project, setup instructions, usage guidelines, and acknowledgments.
+Make sure to replace `https://github.com/ChanceMark/motel-management.git` with the actual URL of your repository if you plan to publish it on GitHub or another platform. This README provides an overview of the project, setup instructions, usage guidelines, and acknowledgments.
