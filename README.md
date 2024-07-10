@@ -24,7 +24,7 @@ A simple motel management system with an admin panel to manage room occupancy, s
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/motel-management.git
+   git clone https://github.com/ChanceMark/motel-management.git
    cd motel-management
    ```
 
